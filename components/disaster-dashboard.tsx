@@ -191,8 +191,8 @@ export function DisasterDashboard({
     {
       label: 'Warga Mengungsi',
       value: totals.pengungsi,
-      description: 'Lihat Data',
-      navigateTo: '/daftar-pengungsi',
+      // description: 'Lihat Data',
+      // navigateTo: '/daftar-pengungsi',
       highlight: 'yellow',
     },
     {
