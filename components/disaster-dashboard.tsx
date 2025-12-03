@@ -198,8 +198,8 @@ export function DisasterDashboard({
     {
       label: 'Korban Meninggal',
       value: totals.meninggal,
-      description: 'Lihat Data',
-      navigateTo: '/daftar-korban',
+      // description: 'Lihat Data',
+      // navigateTo: '/daftar-korban',
       highlight: 'red',
     },
     {
