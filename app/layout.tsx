@@ -1,0 +1,74 @@
+import type React from 'react';
+import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/next';
+import { Inter } from 'next/font/google';
+import { GoogleAnalytics } from '@/components/google-analytics';
+import { MicrosoftClarity } from '@/components/microsoft-clarity';
+import { ServiceWorkerRegister } from '@/components/service-worker-register';
+import { InstallPrompt } from '@/components/install-prompt';
+import './globals.css';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+});
+
+export const metadata: Metadata = {
+  title: 'Data Bencana Banjir Bandang Aceh',
+  description:
+    'Sistem manajemen data bencana banjir bandang untuk monitoring korban dan kerusakan infrastruktur',
+  generator: '',
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+      },
+      {
+        url: '/favicon-96x96.png',
+        sizes: '96x96',
+        type: 'image/png',
+      },
+    ],
+    apple: [
+      {
+        url: '/apple-touch-icon.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
+    other: [
+      {
+        rel: 'android-chrome-192x192',
+        url: '/android-chrome-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        rel: 'android-chrome-512x512',
+        url: '/android-chrome-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+      },
+    ],
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="id">
+      <body className={`${inter.variable} font-sans antialiased`}>
+        <GoogleAnalytics />
+        <MicrosoftClarity />
+        <ServiceWorkerRegister />
+        {children}
+        <InstallPrompt />
+        <Analytics />
+      </body>
+    </html>
+  );
+}
