@@ -21,8 +21,8 @@ export function Header({ lastUpdateDate, showActions = false, title }: HeaderPro
     <header className="flex flex-col items-center gap-6 text-center">
       {/* Logo */}
       <img
-        src="/logo-nad.png"
-        alt="Logo BPBD Kabupaten Aceh"
+        src="/logo-aceh-tenggara.png"
+        alt="Logo BPBD Kabupaten Aceh Tenggara"
         className="h-28 w-auto"
         loading="lazy"
       />
@@ -32,7 +32,7 @@ export function Header({ lastUpdateDate, showActions = false, title }: HeaderPro
         <div className="flex flex-wrap items-center justify-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
           <span>Informasi Resmi</span>
           <span className="font-semibold bg-yellow-500 text-white px-2 py-1 rounded-md">
-            BPBD Aceh
+            BPBD Kabupaten Aceh Tenggara
           </span>
         </div>
 
@@ -54,7 +54,7 @@ export function Header({ lastUpdateDate, showActions = false, title }: HeaderPro
           <Button variant="destructive" asChild>
             <a href="tel:081290900222" aria-label="Hubungi call center darurat">
               <PhoneCall />
-              Hubungi BPBD Aceh
+              Hubungi BPBD Kabupaten Aceh Tenggara
             </a>
           </Button>
         </div>

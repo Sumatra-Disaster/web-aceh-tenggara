@@ -13,7 +13,7 @@ self.addEventListener('install', function (event) {
         return cache.addAll([
           '/',
           '/favicon.ico',
-          '/logo-nad.png',
+          '/logo-aceh-tenggara.png',
           '/android-chrome-192x192.png',
           '/android-chrome-512x512.png',
         ]);

@@ -158,7 +158,7 @@ export function DeceasedVictims({ initialData, lastUpdate }: DeceasedVictimsProp
                 <div className="overflow-hidden rounded-t-2xl">
                   <Table>
                     <TableCaption className="px-6 text-center pb-2">
-                      Tabel korban meninggal akibat bencana Aceh.
+                      Tabel korban meninggal akibat bencana kabupaten Aceh Tenggara.
                     </TableCaption>
                     <TableHeader className="bg-muted/40 text-xs uppercase tracking-wide">
                       <TableRow>

@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Data Bencana Banjir Bandang Aceh',
-    short_name: 'Info Bencana Aceh',
+    name: 'Data Bencana Banjir Bandang Kabupaten Aceh Tenggara',
+    short_name: 'Info Bencana Kabupaten Aceh Tenggara',
     description:
       'Sistem manajemen data bencana banjir bandang untuk monitoring korban dan kerusakan infrastruktur',
     start_url: '/',

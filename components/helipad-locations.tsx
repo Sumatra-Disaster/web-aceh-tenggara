@@ -127,7 +127,8 @@ export function HelipadLocations({ initialData, lastUpdate }: HelipadLocationsPr
               <div className="overflow-x-auto">
                 <Table>
                   <TableCaption className="px-6 text-left pb-2">
-                    Daftar titik lokasi helipad untuk operasi evakuasi dan bantuan di Aceh.
+                    Daftar titik lokasi helipad untuk operasi evakuasi dan bantuan di kabupaten Aceh
+                    Tenggara.
                   </TableCaption>
                   <TableHeader className="sticky top-0 z-10 bg-background/95 backdrop-blur">
                     <TableRow className="text-xs uppercase tracking-wide">

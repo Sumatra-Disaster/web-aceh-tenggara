@@ -395,7 +395,7 @@ export function DisasterDashboard({
               <div className="overflow-x-auto">
                 <Table>
                   <TableCaption className="px-6 text-left pb-2">
-                    Data ringkas korban dan kerusakan di setiap kecamatan Aceh.
+                    Data ringkas korban dan kerusakan di setiap kecamatan Aceh Tenggara.
                   </TableCaption>
                   <TableHeader className="sticky top-0 z-10 bg-background/95 backdrop-blur">
                     <TableRow className="text-xs uppercase tracking-wide">

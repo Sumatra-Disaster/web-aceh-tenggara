@@ -7,7 +7,7 @@ const HOTLINE_LINK = 'tel:081290900222';
 const tickerMessages = [
   'Hotline darurat aktif 24 jam – hubungi kami saat butuh bantuan cepat',
   'Laporkan kondisi genting, kebutuhan logistik, atau permintaan evakuasi',
-  'Tim BPBD siap merespons laporan masyarakat di seluruh Aceh',
+  'Tim BPBD siap merespons laporan masyarakat di seluruh kabupaten Aceh Tenggara',
 ];
 
 export function HotlineTicker() {
@@ -56,7 +56,7 @@ export function HotlineTicker() {
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/90 px-4 py-2 text-sm font-semibold text-red-600 transition hover:bg-white"
             >
               <PhoneCall className="h-4 w-4" aria-hidden />
-              Hubungi BPBD Aceh
+              Hubungi BPBD Kabupaten Aceh Tenggara
             </a>
           </div>
         </div>

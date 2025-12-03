@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Data Bencana Banjir Bandang Aceh',
+  title: 'Data Bencana Banjir Bandang Kabupaten Aceh Tenggara',
   description:
     'Sistem manajemen data bencana banjir bandang untuk monitoring korban dan kerusakan infrastruktur',
   generator: '',

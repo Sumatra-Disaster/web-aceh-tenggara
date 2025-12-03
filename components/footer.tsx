@@ -9,8 +9,8 @@ export function Footer() {
             <Paperclip className="h-5 w-5" />
           </span>
           <p className="max-w-xl leading-relaxed">
-            <span className="font-semibold text-foreground">Sumber data resmi:</span> BPBD Aceh dan
-            laporan posko tanggap darurat terpadu.
+            <span className="font-semibold text-foreground">Sumber data resmi:</span> BPBD Kabupaten
+            Aceh Tenggara dan laporan posko tanggap darurat terpadu.
           </p>
         </div>
         <div className="flex flex-col gap-2 rounded-2xl border bg-background/80 p-4 text-foreground">

@@ -1,10 +1,10 @@
-# Info Bencana Aceh 2025
+# Info Bencana Kabupaten Aceh Tenggara 2025
 
-Sistem manajemen data bencana banjir bandang untuk monitoring korban dan kerusakan infrastruktur di Kabupaten Aceh.
+Sistem manajemen data bencana banjir bandang untuk monitoring korban dan kerusakan infrastruktur di Kabupaten Aceh Tenggara.
 
 ## 📋 Deskripsi
 
-Aplikasi web untuk menampilkan dan mengelola data bencana alam (banjir bandang) yang terjadi di Aceh. Sistem ini mengambil data dari Google Sheets dan menampilkannya dalam format dashboard yang mudah dibaca, termasuk informasi tentang korban jiwa, korban luka, pengungsi, dan kerusakan infrastruktur.
+Aplikasi web untuk menampilkan dan mengelola data bencana alam (banjir bandang) yang terjadi di Kabupaten Aceh Tenggara. Sistem ini mengambil data dari Google Sheets dan menampilkannya dalam format dashboard yang mudah dibaca, termasuk informasi tentang korban jiwa, korban luka, pengungsi, dan kerusakan infrastruktur.
 
 ## ✨ Fitur
 
