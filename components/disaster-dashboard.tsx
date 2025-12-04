@@ -198,8 +198,8 @@ export function DisasterDashboard({
     {
       label: 'Korban Meninggal',
       value: totals.meninggal,
-      // description: 'Lihat Data',
-      // navigateTo: '/daftar-korban',
+      description: 'Lihat Data',
+      navigateTo: '/daftar-korban',
       highlight: 'red',
     },
     {
@@ -209,13 +209,13 @@ export function DisasterDashboard({
       navigateTo: '/posko',
       highlight: 'green',
     },
-    {
-      label: 'Titik Lokasi Helipad',
-      value: totalHelipadLocations || 0,
-      description: 'Lihat Data',
-      navigateTo: '/titik-lokasi-helipad',
-      highlight: 'blue',
-    },
+    // {
+    //   label: 'Titik Lokasi Helipad',
+    //   value: totalHelipadLocations || 0,
+    //   description: 'Lihat Data',
+    //   navigateTo: '/titik-lokasi-helipad',
+    //   highlight: 'blue',
+    // },
     // {
     //   label: 'Total Penduduk',
     //   value: totals.jumlah_penduduk,
@@ -297,7 +297,7 @@ export function DisasterDashboard({
 
         {/* Summary Cards */}
         <section
-          className="grid grid-cols-2 gap-4 md:grid-cols-2 xl:grid-cols-4"
+          className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-3"
           aria-live="polite"
         >
           {statCards.map((stat) => {
