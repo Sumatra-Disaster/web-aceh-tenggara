@@ -21,7 +21,7 @@ export function Footer() {
             href="tel:081290900222"
             className="inline-flex items-center gap-2 text-lg font-bold text-destructive hover:text-destructive/80"
           >
-            <Phone className="h-5 w-5" aria-hidden /> 0812-9090-0222
+            <Phone className="h-5 w-5" aria-hidden /> 0822-7664-7209
           </a>
           <p className="text-xs text-muted-foreground">
             Tersedia 24 jam untuk laporan keadaan darurat.
